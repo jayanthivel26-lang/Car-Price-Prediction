@@ -5,7 +5,7 @@ import base64
 from pathlib import Path
 
 # BMW Background Image
-bg_path = Path("white-bmw-m4-8q-1366x768.jpg")
+bg_path = Path("BMW.jpg")
 
 if bg_path.exists():
     with open(bg_path, "rb") as image_file:
